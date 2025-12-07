@@ -27,9 +27,9 @@ const FoodCard = ({ title, image, delay = 0 }: FoodCardProps) => {
           height={100}
         />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 p-5">
-        <h3 className="font-heading text-xl font-semibold  md:text-2xl text-card">
+      <div className="absolute inset-0 bg-linear-to-t from-foreground/70 via-foreground/20 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 bg-linear-to-br from-orange-500 via-orange-400 to-orange-300">
+        <h3 className="font-heading text-lg font-semibold text-center md:text-2xl text-card">
           {title}
         </h3>
       </div>
